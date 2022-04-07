@@ -1,4 +1,4 @@
-# 백준 10950번
+# 백준 10950
 num = int(input())
 add = [0] * num
 for i in range(num):
