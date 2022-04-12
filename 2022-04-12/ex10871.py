@@ -6,9 +6,8 @@ N, X = map(int, sys.stdin.readline().split())
 
 A = [0] * N
 
-for i in range(len(A)):
-    A[i] = map(int(sys.stdin.readline().split()))
+A = list(map(int, sys.stdin.readline().split()))
 
-for j in range(len(A)):
-    if A[j] < X:
-        print(A[j], end='')
+for i in range(len(A)):
+    if A[i] < X:
+        print("%d " % A[i], end='')
